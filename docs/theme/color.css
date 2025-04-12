@@ -1,0 +1,24 @@
+/* Theme Colors
+ * © 2025 hanagai
+ */
+
+:root {
+  /* Primary Colors */
+  --color-primary: #1c8ccd;
+  --color-primary-variant: #f0907f;
+  --color-on-primary: #f6faf3;
+}
+
+:root {
+  color: var(--color-primary);
+  background-color: var(--color-on-primary);
+}
+
+footer {
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
+}
+
+summary {
+  color: var(--color-primary-variant);
+}

@@ -1,0 +1,31 @@
+/* Responsive theme layout
+ * © 2025 hanagai
+ */
+
+body {
+  margin: 0;
+  font-family: "Noto Sans CJK", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  text-align: right;
+  padding: 10px 20px;
+}
+
+hr {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  footer {
+    text-align: center;
+  }
+}
