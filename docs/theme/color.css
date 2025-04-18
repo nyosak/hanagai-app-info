@@ -19,6 +19,33 @@ footer {
   background-color: var(--color-primary);
 }
 
+nav {
+  color: var(--color-on-primary);
+  background-color: var(--color-primary);
+}
+
+nav:hover {
+  color: var(--color-primary);
+  background-color: var(--color-primary-variant);
+}
+
+nav .hint {
+  color: var(--color-primary);
+}
+
 summary {
   color: var(--color-primary-variant);
+}
+
+.legal {
+  color: black;
+  background-color: white;
+}
+
+section {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+pre.legal {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

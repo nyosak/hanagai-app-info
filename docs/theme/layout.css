@@ -5,27 +5,92 @@
 body {
   margin: 0;
   font-family: "Noto Sans CJK", sans-serif;
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-}
-
-main {
-  flex: 1;
-  padding: 20px;
-}
-
-footer {
-  text-align: right;
-  padding: 10px 20px;
 }
 
 hr {
   display: none;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+footer nav {
+  flex: 61.8%;
+}
+
+footer p {
+  padding: 10px 20px;
+}
+
+header {
+  padding-left: 38.2%;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 20px;
+}
+
+section {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.app {
+  flex: 38.2%;
+}
+
+p {
+  margin: 0;
+  padding: 1ch;
+  text-indent: 2ch;
+}
+
+li {
+  padding: 1ch;
+}
+
+span img {
+  vertical-align: middle;
+}
+
+pre.legal {
+  font-family: serif;
+  white-space: pre-wrap;
+  padding: 20px;
+  margin: 10px 19.1%;
+}
+
 @media (max-width: 600px) {
   footer {
+    flex-direction: column;
+  }
+
+  footer p {
+    padding: 4px 20px;
+  }
+
+  header {
     text-align: center;
+    padding-left: 0;
+  }
+
+  .box {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  pre.legal {
+    margin: 0;
   }
 }

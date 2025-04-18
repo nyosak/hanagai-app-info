@@ -14,3 +14,10 @@
 :root {
   font-size: var(--font-size-medium);
 }
+
+/* Responsive font sizes */
+@media (max-width: 600px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.3rem;
+  }
+}
